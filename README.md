@@ -44,7 +44,7 @@ These functions manage memory allocation, deallocation, and resizing, interfacin
   - **`realloc(void *ptr, size_t size)`**: Delegates to `HmmRealloc(ptr, size)`.
 
 - **`FreeList.c`**: Implements functions for managing a free list:
-  - **`uint8_t calculate_decreases_in_program_break()`**: Calculates changes in the program's break (heap size).
+  - **`uint8_t calculate_decreases_in_program_break()`**: Iterate through the free list to find contiguous memory blocks.
   - **`void insert_block_into_freelist(void *blockPtr)`**: Inserts a block into the free list.
   - **`void insert_node_at_start(void *ptr)`**: Inserts a node at the start of the free list.
   - **`void append_to_freelist_end(void *blockPtr)`**: Appends a node to the end of the free list.
