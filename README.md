@@ -61,13 +61,8 @@ Allocates a block of memory of the specified size.
   - `size`: Size of the memory block in bytes.
 - **Returns**:
   - Pointer to the allocated memory block, or `NULL` if allocation fails.
-- **Example**:
-  ```c
-  void *ptr = HmmAlloc(256); // Allocates 256 bytes
-  if (ptr == NULL) {
-      // Handle allocation failure
-  }
-### `void *HmmCalloc(size_t num, size_t size)`
+
+### ✨`void *HmmCalloc(size_t num, size_t size)`
 
 Allocates memory for an array of `num` elements, each of `size` bytes, and initializes all bytes to zero.
 
