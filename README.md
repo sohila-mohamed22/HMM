@@ -4,10 +4,10 @@ This project implements a custom Heap Memory Manager (HMM) to replace the standa
 
 ## 📑 Table of Contents
 
-1. [Overview](#overview)
-2. [Project Structure](#project-structure)
-   - [Source Files](#source-files)
-3. [Usage](#usage)
+1. [Overview](#Overview)
+2. [Project Structure](#Project-Structure)
+   - [Source Files](#Source-Files)
+3. [Usage](#Usage)
    - [HmmAlloc](#hmmallocsize-t-size)
    - [HmmCalloc](#hmmcallocsize-t-num-size-t-size)
    - [HmmRealloc](#hmmreallocvoid--ptr-size-t-new-size)
